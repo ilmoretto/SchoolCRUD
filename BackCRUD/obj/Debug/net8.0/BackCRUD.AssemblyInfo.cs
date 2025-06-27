@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6606e80cdc4f05563d50ea9639efdacf0d5ad882")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -38,3 +38,4 @@ C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\refint\BackCRU
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.pdb
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.genruntimeconfig.cache
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\ref\BackCRUD.dll
+C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.sourcelink.json
