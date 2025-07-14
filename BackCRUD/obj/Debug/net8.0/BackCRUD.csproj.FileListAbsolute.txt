@@ -32,10 +32,10 @@ C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.Gener
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.AssemblyInfoInputs.cache
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.AssemblyInfo.cs
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.csproj.CoreCompileInputs.cache
+C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.sourcelink.json
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.csproj.Up2Date
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.dll
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\refint\BackCRUD.dll
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.pdb
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.genruntimeconfig.cache
 C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\ref\BackCRUD.dll
-C:\Users\moret\Documents\POO\SchoolCRUD\BackCRUD\obj\Debug\net8.0\BackCRUD.sourcelink.json

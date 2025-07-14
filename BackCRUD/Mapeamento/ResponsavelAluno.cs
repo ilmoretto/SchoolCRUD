@@ -10,14 +10,14 @@ namespace BackCRUD.Mapeamento
 {
     public class ResponsavelAluno
     {
-        public int _idResp {  get; set; }
-        public string _nomeResp { get; set; }
+        public int IdResp {  get; set; }
+        public string NomeResp { get; set; }
         private string _cpfResp { get; set; }
-        public string? _rgResp { get; set; }
-        public DateOnly? _dataNascResp {  get; set; }
-        public string _emailResp { get; set; }
-        public string? _telefoneResp { get; set; }
-        public string? _parentescoResp { get; set; }
+        public string? RgResp { get; set; }
+        public DateOnly? DataNascResp {  get; set; }
+        public string EmailResp { get; set; }
+        public string? TelefoneResp { get; set; }
+        public string? ParentescoResp { get; set; }
 
         public string CpfResp {
             get {  return _cpfResp; }

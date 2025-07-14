@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\backcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|solutionrelative:backcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\backcrud\\utilitarios\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|solutionrelative:backcrud\\utilitarios\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\backcrud\\mapeamento\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|solutionrelative:backcrud\\mapeamento\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\backcrud\\mapeamento\\responsavelaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|solutionrelative:backcrud\\mapeamento\\responsavelaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,55 +34,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Validacao.cs",
-              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Utilitarios\\Validacao.cs",
-              "RelativeDocumentMoniker": "BackCRUD\\Utilitarios\\Validacao.cs",
-              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Utilitarios\\Validacao.cs",
-              "RelativeToolTip": "BackCRUD\\Utilitarios\\Validacao.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvyIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T17:13:58.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Program.cs",
-              "RelativeDocumentMoniker": "BackCRUD\\Program.cs",
-              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Program.cs*",
-              "RelativeToolTip": "BackCRUD\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs",
+              "RelativeDocumentMoniker": "FrontCRUD\\frmMain.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs",
+              "RelativeToolTip": "FrontCRUD\\frmMain.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAuwJEAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T17:09:05.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResponsavelAluno.cs",
-              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Mapeamento\\ResponsavelAluno.cs",
-              "RelativeDocumentMoniker": "BackCRUD\\Mapeamento\\ResponsavelAluno.cs",
-              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Mapeamento\\ResponsavelAluno.cs",
-              "RelativeToolTip": "BackCRUD\\Mapeamento\\ResponsavelAluno.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:38:30.435Z",
+              "WhenOpened": "2025-07-14T03:11:48.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Mapeamento\\Aluno.cs",
-              "RelativeDocumentMoniker": "BackCRUD\\Mapeamento\\Aluno.cs",
-              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Mapeamento\\Aluno.cs",
-              "RelativeToolTip": "BackCRUD\\Mapeamento\\Aluno.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBAAAAAvAAAAAAAAAA==",
+              "Title": "frmMain.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs",
+              "RelativeDocumentMoniker": "FrontCRUD\\frmMain.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs [Projeto]",
+              "RelativeToolTip": "FrontCRUD\\frmMain.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:53:35.501Z",
+              "WhenOpened": "2025-07-14T03:11:46.826Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCadastro.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs",
+              "RelativeDocumentMoniker": "FrontCRUD\\frmCadastro.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs",
+              "RelativeToolTip": "FrontCRUD\\frmCadastro.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwDYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T03:11:34.643Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmCadastro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs",
+              "RelativeDocumentMoniker": "FrontCRUD\\frmCadastro.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs [Projeto]",
+              "RelativeToolTip": "FrontCRUD\\frmCadastro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T03:11:21.027Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         },
