@@ -42,7 +42,7 @@
             label7 = new Label();
             dtpDataNascAluno = new DateTimePicker();
             label8 = new Label();
-            txtIdResponsavel = new TextBox();
+            cmbResponsavel = new ComboBox();
             SuspendLayout();
             // 
             // btnSalvar
@@ -87,14 +87,14 @@
             // 
             txtEmailAluno.Location = new Point(293, 213);
             txtEmailAluno.Name = "txtEmailAluno";
-            txtEmailAluno.Size = new Size(107, 23);
+            txtEmailAluno.Size = new Size(174, 23);
             txtEmailAluno.TabIndex = 6;
             // 
             // txtTelefoneAluno
             // 
-            txtTelefoneAluno.Location = new Point(454, 213);
+            txtTelefoneAluno.Location = new Point(482, 213);
             txtTelefoneAluno.Name = "txtTelefoneAluno";
-            txtTelefoneAluno.Size = new Size(140, 23);
+            txtTelefoneAluno.Size = new Size(92, 23);
             txtTelefoneAluno.TabIndex = 7;
             // 
             // txtCpfAluno
@@ -175,7 +175,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(454, 189);
+            label7.Location = new Point(482, 189);
             label7.Name = "label7";
             label7.Size = new Size(80, 21);
             label7.TabIndex = 13;
@@ -192,28 +192,28 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(389, 63);
+            label8.Location = new Point(338, 63);
             label8.Name = "label8";
             label8.Size = new Size(109, 21);
             label8.TabIndex = 16;
-            label8.Text = "Responsavel:";
+            label8.Text = "Responsável:";
             // 
-            // txtIdResponsavel
+            // cmbResponsavel
             // 
-            txtIdResponsavel.Enabled = false;
-            txtIdResponsavel.Location = new Point(389, 87);
-            txtIdResponsavel.Name = "txtIdResponsavel";
-            txtIdResponsavel.ReadOnly = true;
-            txtIdResponsavel.Size = new Size(205, 23);
-            txtIdResponsavel.TabIndex = 15;
+            cmbResponsavel.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbResponsavel.FormattingEnabled = true;
+            cmbResponsavel.Location = new Point(332, 87);
+            cmbResponsavel.Name = "cmbResponsavel";
+            cmbResponsavel.Size = new Size(196, 23);
+            cmbResponsavel.TabIndex = 17;
             // 
             // frmCadastro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(611, 471);
+            Controls.Add(cmbResponsavel);
             Controls.Add(label8);
-            Controls.Add(txtIdResponsavel);
             Controls.Add(dtpDataNascAluno);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -256,6 +256,6 @@
         private Label label7;
         private DateTimePicker dtpDataNascAluno;
         private Label label8;
-        private TextBox txtIdResponsavel;
+        private ComboBox cmbResponsavel;
     }
 }

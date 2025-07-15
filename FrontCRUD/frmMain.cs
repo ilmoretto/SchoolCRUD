@@ -13,7 +13,7 @@ public partial class frmMain : Form
     public frmMain() {
         InitializeComponent();
         _alunoDAO = new AlunoDAO();
-
+        dgvAlunos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         dgvAlunos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         dgvAlunos.MultiSelect = false;
         dgvAlunos.ReadOnly = true;
@@ -30,17 +30,17 @@ public partial class frmMain : Form
             if (string.IsNullOrWhiteSpace(nomeFiltro)) {
                 alunos = _alunoDAO.BuscarTodos();
             } else {
-                alunos = _alunoDAO.BuscarPorNome(nomeFiltro);
+                alunos = _alunoDAO.BuscarNome(nomeFiltro);
             }
             dgvAlunos.DataSource = alunos;
-            dgvAlunos.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
-            ConfigurarCabecalhosDGV();
+            NomearColunas();
+
         } catch (Exception ex) {
             MessageBox.Show($"Erro ao carregar alunos: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 
-    private void ConfigurarCabecalhosDGV() {
+    private void NomearColunas() {
         dgvAlunos.Columns["IdAluno"].HeaderText = "ID";
         dgvAlunos.Columns["NomeAlu"].HeaderText = "Nome";
         dgvAlunos.Columns["CpfAluno"].HeaderText = "CPF";
@@ -49,6 +49,8 @@ public partial class frmMain : Form
         dgvAlunos.Columns["RgAlu"].HeaderText = "RG";
         dgvAlunos.Columns["EmailAlu"].HeaderText = "Email";
         dgvAlunos.Columns["Fk_id_responsavel"].HeaderText = "ID Responsável";
+        dgvAlunos.Columns["FkResponsavelAluno"].Visible = false;
+
     }
 
     private void frmMain_Load(object sender, EventArgs e) {
@@ -71,6 +73,7 @@ public partial class frmMain : Form
 
             try {
                 Aluno alunoParaEditar = _alunoDAO.BuscarPorId(idAlunoSelecionado);
+                //MessageBox.Show($"ID selecionado: {idAlunoSelecionado}");
 
                 if (alunoParaEditar != null) {
                     using (frmCadastro formEditar = new frmCadastro(alunoParaEditar)) {
@@ -79,6 +82,7 @@ public partial class frmMain : Form
                         }
                     }
                 } else {
+
                     MessageBox.Show("Não foi possível carregar os dados do aluno selecionado para edição.", "Erro Interno", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             } catch (Exception ex) {

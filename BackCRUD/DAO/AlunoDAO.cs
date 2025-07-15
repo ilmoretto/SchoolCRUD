@@ -3,14 +3,16 @@ using BackCRUD.Utilitarios;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
+using BackCRUD.Interface;
 
 namespace BackCRUD.DAO
 {
-    public class AlunoDAO
+    public class AlunoDAO : ICRUD<Aluno>
     {
         public void Cadastrar(Aluno aluno) { // cadastro de novos alunos 
             try {
@@ -40,7 +42,8 @@ namespace BackCRUD.DAO
             try {
                 string dataNasc = aluno.DataNascAlu.ToString("yyyy-MM-dd");
                 string sql = "UPDATE alunos SET nome_alu = @nome_alu, cpf_alu = @cpf_alu, dataNasc_alu = @dataNasc_alu," +
-                    "email_alu = @email_alu, rg_alu = @rg_alu, telefone_alu = @telefone_alu, fk_id_responsavel = @fk_id_responsavel";
+                    "email_alu = @email_alu, rg_alu = @rg_alu, telefone_alu = @telefone_alu, fk_id_responsavel = @fk_id_responsavel" +
+                    " WHERE id_aluno = @id_aluno";
 
                 MySqlCommand cmd = new MySqlCommand(sql, ConexaoBD.Conectar());
 
@@ -51,6 +54,7 @@ namespace BackCRUD.DAO
                 cmd.Parameters.AddWithValue("@rg_alu", aluno.RgAlu);
                 cmd.Parameters.AddWithValue("@telefone_alu", aluno.TelefoneAlu);
                 cmd.Parameters.AddWithValue("@fk_id_responsavel", aluno.Fk_id_responsavel);
+                cmd.Parameters.AddWithValue("@id_aluno", aluno.IdAluno);
 
                 cmd.ExecuteNonQuery();
             } catch (Exception ex) {
@@ -73,6 +77,7 @@ namespace BackCRUD.DAO
                         a.NomeAlu = dr.GetString("nome_alu");
                         a.TelefoneAlu = dr.GetString("telefone_alu");
                         a.RgAlu = dr.GetString("rg_alu");
+                        a.EmailAlu = dr.GetString("email_alu");
 
                         if (!dr.IsDBNull(dr.GetOrdinal("dataNasc_alu"))) {
                             a.DataNascAlu = DateOnly.FromDateTime(dr.GetDateTime("dataNasc_alu"));
@@ -83,6 +88,8 @@ namespace BackCRUD.DAO
                         if (!dr.IsDBNull(dr.GetOrdinal("cpf_alu"))) {
                             a.CpfAluno = dr.GetString("cpf_alu");
                         }
+                        a.Fk_id_responsavel = dr.IsDBNull("fk_id_responsavel") ? null : dr.GetInt32("fk_id_responsavel");
+                       
 
 
                         alunosCadastrados.Add(a);
@@ -105,20 +112,22 @@ namespace BackCRUD.DAO
 
                     using (MySqlDataReader dr = comando.ExecuteReader()) {
                         if (dr.Read()) {
-                            Aluno a = new Aluno();
-                            a.IdAluno = dr.GetInt32("id_aluno");
-                            a.NomeAlu = dr.GetString("nome_alu");
-                            a.TelefoneAlu = dr.GetString("telefone_alu");
-                            a.RgAlu = dr.GetString("rg_alu");
+                            aluno = new Aluno();
+                            aluno.IdAluno = dr.GetInt32("id_aluno");
+                            aluno.NomeAlu = dr.GetString("nome_alu");
+                            aluno.TelefoneAlu = dr.GetString("telefone_alu");
+                            aluno.RgAlu = dr.GetString("rg_alu");
+                            aluno.EmailAlu = dr.GetString("email_alu");
+
 
                             if (!dr.IsDBNull(dr.GetOrdinal("dataNasc_alu"))) {
-                                a.DataNascAlu = DateOnly.FromDateTime(dr.GetDateTime("dataNasc_alu"));
+                                aluno.DataNascAlu = DateOnly.FromDateTime(dr.GetDateTime("dataNasc_alu"));
                             }
                             if (!dr.IsDBNull(dr.GetOrdinal("fk_id_responsavel"))) {
-                                a.Fk_id_responsavel = dr.GetInt32("fk_id_responsavel");
+                                aluno.Fk_id_responsavel = dr.GetInt32("fk_id_responsavel");
                             }
                             if (!dr.IsDBNull(dr.GetOrdinal("cpf_alu"))) {
-                                a.CpfAluno = dr.GetString("cpf_alu");
+                                aluno.CpfAluno = dr.GetString("cpf_alu");
                             }
                         }
                     }
@@ -130,7 +139,7 @@ namespace BackCRUD.DAO
                 ConexaoBD.Desconectar();
             }
         }
-        public List<Aluno> BuscarPorNome(string nomeBusca) {
+        public List<Aluno> BuscarNome(string nomeBusca) {
             List<Aluno> alunos = new List<Aluno>();
             try {
                 string sql = "SELECT id_aluno, nome_alu, cpf_alu, dataNasc_alu, email_alu, rg_alu," +
@@ -144,6 +153,8 @@ namespace BackCRUD.DAO
                         a.NomeAlu = dr.GetString("nome_alu");
                         a.TelefoneAlu = dr.GetString("telefone_alu");
                         a.RgAlu = dr.GetString("rg_alu");
+                        a.EmailAlu = dr.GetString("email_alu");
+
 
                         if (!dr.IsDBNull(dr.GetOrdinal("dataNasc_alu"))) {
                             a.DataNascAlu = DateOnly.FromDateTime(dr.GetDateTime("dataNasc_alu"));

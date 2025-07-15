@@ -12,6 +12,6 @@ namespace BackCRUD.Interface
         public void Alterar(T t) { }
         public void Deletar(T t) { }
         public List<T> BuscarTodos();
-        public List<T> BuscarNome();
+        public List<T> BuscarNome(string s);
     }
 }

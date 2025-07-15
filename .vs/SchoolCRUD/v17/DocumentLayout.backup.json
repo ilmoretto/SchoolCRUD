@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\backcrud\\interface\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|solutionrelative:backcrud\\interface\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,34 +44,35 @@
               "RelativeDocumentMoniker": "FrontCRUD\\frmMain.cs",
               "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs",
               "RelativeToolTip": "FrontCRUD\\frmMain.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAuwJEAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T03:11:48.6Z",
+              "WhenOpened": "2025-07-15T02:51:35.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmMain.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs",
-              "RelativeDocumentMoniker": "FrontCRUD\\frmMain.cs",
-              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs [Projeto]",
-              "RelativeToolTip": "FrontCRUD\\frmMain.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T03:11:46.826Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "frmCadastro.cs",
               "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs",
               "RelativeDocumentMoniker": "FrontCRUD\\frmCadastro.cs",
               "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs",
               "RelativeToolTip": "FrontCRUD\\frmCadastro.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAUwDYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T03:11:34.643Z",
+              "WhenOpened": "2025-07-15T02:51:28.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICRUD.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Interface\\ICRUD.cs",
+              "RelativeDocumentMoniker": "BackCRUD\\Interface\\ICRUD.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Interface\\ICRUD.cs",
+              "RelativeToolTip": "BackCRUD\\Interface\\ICRUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:51:06.077Z",
               "EditorCaption": ""
             },
             {
@@ -79,7 +84,19 @@
               "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs [Projeto]",
               "RelativeToolTip": "FrontCRUD\\frmCadastro.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T03:11:21.027Z",
+              "WhenOpened": "2025-07-15T02:35:50.629Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs",
+              "RelativeDocumentMoniker": "FrontCRUD\\frmMain.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs [Projeto]",
+              "RelativeToolTip": "FrontCRUD\\frmMain.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:19:08.749Z",
               "EditorCaption": " [Projeto]"
             }
           ]

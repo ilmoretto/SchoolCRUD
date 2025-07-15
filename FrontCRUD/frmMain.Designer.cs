@@ -25,13 +25,14 @@
         ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             label1 = new Label();
-            btnDeletar = new Button();
             btnBuscar = new Button();
             btnAlterar = new Button();
             btnCadastrar = new Button();
             txtBuscarNom = new TextBox();
             dgvAlunos = new DataGridView();
+            btnDeletar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvAlunos).BeginInit();
             SuspendLayout();
             // 
@@ -44,17 +45,6 @@
             label1.Size = new Size(132, 21);
             label1.TabIndex = 10;
             label1.Text = "Encontrar aluno";
-            // 
-            // btnDeletar
-            // 
-            btnDeletar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDeletar.Location = new Point(503, 403);
-            btnDeletar.Name = "btnDeletar";
-            btnDeletar.Size = new Size(100, 34);
-            btnDeletar.TabIndex = 6;
-            btnDeletar.Text = "Deletar";
-            btnDeletar.UseVisualStyleBackColor = true;
-            btnDeletar.Click += btnDeletar_Click_1;
             // 
             // btnBuscar
             // 
@@ -69,24 +59,30 @@
             // 
             // btnAlterar
             // 
+            btnAlterar.BackColor = Color.WhiteSmoke;
             btnAlterar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAlterar.Location = new Point(262, 403);
+            btnAlterar.Image = (Image)resources.GetObject("btnAlterar.Image");
+            btnAlterar.ImageAlign = ContentAlignment.MiddleRight;
+            btnAlterar.Location = new Point(339, 407);
             btnAlterar.Name = "btnAlterar";
-            btnAlterar.Size = new Size(100, 34);
+            btnAlterar.Size = new Size(118, 34);
             btnAlterar.TabIndex = 8;
             btnAlterar.Text = "Alterar";
-            btnAlterar.UseVisualStyleBackColor = true;
+            btnAlterar.UseVisualStyleBackColor = false;
             btnAlterar.Click += btnAlterar_Click_1;
             // 
             // btnCadastrar
             // 
+            btnCadastrar.BackColor = Color.WhiteSmoke;
             btnCadastrar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCadastrar.Location = new Point(16, 403);
+            btnCadastrar.Image = (Image)resources.GetObject("btnCadastrar.Image");
+            btnCadastrar.ImageAlign = ContentAlignment.MiddleRight;
+            btnCadastrar.Location = new Point(75, 407);
             btnCadastrar.Name = "btnCadastrar";
-            btnCadastrar.Size = new Size(100, 34);
+            btnCadastrar.Size = new Size(118, 34);
             btnCadastrar.TabIndex = 9;
             btnCadastrar.Text = "Novo";
-            btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.UseVisualStyleBackColor = false;
             btnCadastrar.Click += btnCadastrar_Click_1;
             // 
             // txtBuscarNom
@@ -107,10 +103,25 @@
             dgvAlunos.Size = new Size(769, 326);
             dgvAlunos.TabIndex = 4;
             // 
+            // btnDeletar
+            // 
+            btnDeletar.BackColor = Color.WhiteSmoke;
+            btnDeletar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDeletar.Image = (Image)resources.GetObject("btnDeletar.Image");
+            btnDeletar.ImageAlign = ContentAlignment.MiddleRight;
+            btnDeletar.Location = new Point(562, 407);
+            btnDeletar.Name = "btnDeletar";
+            btnDeletar.Size = new Size(118, 34);
+            btnDeletar.TabIndex = 6;
+            btnDeletar.Text = "Deletar";
+            btnDeletar.UseVisualStyleBackColor = false;
+            btnDeletar.Click += btnDeletar_Click_1;
+            // 
             // frmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Gainsboro;
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
             Controls.Add(btnDeletar);
@@ -120,7 +131,7 @@
             Controls.Add(txtBuscarNom);
             Controls.Add(dgvAlunos);
             Name = "frmMain";
-            Text = "Form1";
+            Text = "Alunos";
             Load += frmMain_Load_1;
             ((System.ComponentModel.ISupportInitialize)dgvAlunos).EndInit();
             ResumeLayout(false);
@@ -130,11 +141,11 @@
         #endregion
 
         private Label label1;
-        private Button btnDeletar;
         private Button btnBuscar;
         private Button btnAlterar;
         private Button btnCadastrar;
         private TextBox txtBuscarNom;
         private DataGridView dgvAlunos;
+        private Button btnDeletar;
     }
 }
