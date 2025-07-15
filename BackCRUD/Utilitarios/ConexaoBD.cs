@@ -8,7 +8,7 @@ using MySql.Data.MySqlClient;
 
 namespace BackCRUD.Utilitarios
 {
-    internal class ConexaoBD
+    public class ConexaoBD
     {
         static MySqlConnection conexao;
         public static MySqlConnection Conectar() {

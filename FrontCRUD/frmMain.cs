@@ -3,6 +3,9 @@ using BackCRUD.Mapeamento;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using BackCRUD.Utilitarios;
+using BackCRUD.Visualizacao;
+
 
 namespace FrontCRUD;
 
@@ -23,17 +26,18 @@ public partial class frmMain : Form
     }
 
     private void CarregarDGV(string nomeFiltro = "") {
-        try {
-            dgvAlunos.DataSource = null;
-            List<Aluno> alunos;
+        dgvAlunos.DataSource = null;
+        List<AlunoDTO> alunos;
 
-            if (string.IsNullOrWhiteSpace(nomeFiltro)) {
-                alunos = _alunoDAO.BuscarTodos();
-            } else {
-                alunos = _alunoDAO.BuscarNome(nomeFiltro);
-            }
-            dgvAlunos.DataSource = alunos;
-            NomearColunas();
+        if (string.IsNullOrWhiteSpace(nomeFiltro)) {
+            alunos = _alunoDAO.BuscarTodos();
+        } else {
+            alunos = _alunoDAO.BuscarNome(nomeFiltro);
+        }
+        dgvAlunos.DataSource = alunos;
+        NomearColunas();
+        try {
+            
 
         } catch (Exception ex) {
             MessageBox.Show($"Erro ao carregar alunos: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -48,8 +52,8 @@ public partial class frmMain : Form
         dgvAlunos.Columns["TelefoneAlu"].HeaderText = "Contato";
         dgvAlunos.Columns["RgAlu"].HeaderText = "RG";
         dgvAlunos.Columns["EmailAlu"].HeaderText = "Email";
-        dgvAlunos.Columns["Fk_id_responsavel"].HeaderText = "ID Responsável";
-        dgvAlunos.Columns["FkResponsavelAluno"].Visible = false;
+        dgvAlunos.Columns["NomeResponsavel"].HeaderText = "Responsável";
+        
 
     }
 
@@ -151,5 +155,13 @@ public partial class frmMain : Form
         txtBuscarNom.Text = "Insira o nome do Aluno...";
         txtBuscarNom.ForeColor = System.Drawing.Color.Gray;
 
+    }
+
+    private void btnCadastrar_MouseEnter(object sender, EventArgs e) {
+        btnCadastrar.BackColor = System.Drawing.Color.LightSkyBlue;
+    }
+
+    private void btnCadastrar_MouseLeave(object sender, EventArgs e) {
+        btnCadastrar.BackColor = System.Drawing.Color.WhiteSmoke;
     }
 }

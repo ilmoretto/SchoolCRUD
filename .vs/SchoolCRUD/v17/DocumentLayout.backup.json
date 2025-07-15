@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\backcrud\\dao\\alunodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|solutionrelative:backcrud\\dao\\alunodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{94F00ED9-F7BC-4857-928C-BF9CFE2EDEE1}|FrontCRUD\\FrontCRUD.csproj|solutionrelative:frontcrud\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\backcrud\\interface\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|solutionrelative:backcrud\\interface\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|c:\\users\\moret\\documents\\poo\\schoolcrud\\backcrud\\visualizacao\\alunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C56AD0E-9145-48AF-95A7-311AC3904DE2}|BackCRUD\\BackCRUD.csproj|solutionrelative:backcrud\\visualizacao\\alunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,66 +34,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmMain.cs",
               "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs",
               "RelativeDocumentMoniker": "FrontCRUD\\frmMain.cs",
               "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs",
               "RelativeToolTip": "FrontCRUD\\frmMain.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAswDYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T02:51:35.564Z",
+              "WhenOpened": "2025-07-15T16:18:40.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmCadastro.cs",
-              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs",
-              "RelativeDocumentMoniker": "FrontCRUD\\frmCadastro.cs",
-              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs",
-              "RelativeToolTip": "FrontCRUD\\frmCadastro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T02:51:28.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ICRUD.cs",
               "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Interface\\ICRUD.cs",
               "RelativeDocumentMoniker": "BackCRUD\\Interface\\ICRUD.cs",
               "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Interface\\ICRUD.cs",
               "RelativeToolTip": "BackCRUD\\Interface\\ICRUD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T02:51:06.077Z",
+              "WhenOpened": "2025-07-15T16:17:51.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmCadastro.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs",
-              "RelativeDocumentMoniker": "FrontCRUD\\frmCadastro.cs",
-              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmCadastro.cs [Projeto]",
-              "RelativeToolTip": "FrontCRUD\\frmCadastro.cs [Projeto]",
+              "Title": "AlunoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Visualizacao\\AlunoDTO.cs",
+              "RelativeDocumentMoniker": "BackCRUD\\Visualizacao\\AlunoDTO.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\Visualizacao\\AlunoDTO.cs",
+              "RelativeToolTip": "BackCRUD\\Visualizacao\\AlunoDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T02:35:50.629Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-07-15T15:59:45.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmMain.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs",
-              "RelativeDocumentMoniker": "FrontCRUD\\frmMain.cs",
-              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\FrontCRUD\\frmMain.cs [Projeto]",
-              "RelativeToolTip": "FrontCRUD\\frmMain.cs [Projeto]",
+              "DocumentIndex": 0,
+              "Title": "AlunoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\DAO\\AlunoDAO.cs",
+              "RelativeDocumentMoniker": "BackCRUD\\DAO\\AlunoDAO.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\SchoolCRUD\\BackCRUD\\DAO\\AlunoDAO.cs",
+              "RelativeToolTip": "BackCRUD\\DAO\\AlunoDAO.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwJYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T02:19:08.749Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-07-15T15:30:16.327Z",
+              "EditorCaption": ""
             }
           ]
         },

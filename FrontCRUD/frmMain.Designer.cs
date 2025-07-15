@@ -84,6 +84,8 @@
             btnCadastrar.Text = "Novo";
             btnCadastrar.UseVisualStyleBackColor = false;
             btnCadastrar.Click += btnCadastrar_Click_1;
+            btnCadastrar.MouseEnter += btnCadastrar_MouseEnter;
+            btnCadastrar.MouseLeave += btnCadastrar_MouseLeave;
             // 
             // txtBuscarNom
             // 

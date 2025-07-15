@@ -25,6 +25,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastro));
             btnSalvar = new Button();
             btnCancelar = new Button();
             txtId = new TextBox();
@@ -48,9 +49,11 @@
             // btnSalvar
             // 
             btnSalvar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSalvar.Location = new Point(383, 349);
+            btnSalvar.Image = (Image)resources.GetObject("btnSalvar.Image");
+            btnSalvar.ImageAlign = ContentAlignment.MiddleRight;
+            btnSalvar.Location = new Point(379, 349);
             btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(100, 34);
+            btnSalvar.Size = new Size(114, 34);
             btnSalvar.TabIndex = 11;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
@@ -59,9 +62,9 @@
             // btnCancelar
             // 
             btnCancelar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancelar.Location = new Point(101, 349);
+            btnCancelar.Location = new Point(97, 349);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(100, 34);
+            btnCancelar.Size = new Size(114, 34);
             btnCancelar.TabIndex = 12;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;

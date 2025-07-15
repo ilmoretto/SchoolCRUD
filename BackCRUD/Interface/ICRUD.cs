@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BackCRUD.Visualizacao;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace BackCRUD.Interface
 {
-    internal interface ICRUD <T>
+    internal interface ICRUD<T>
     {
         public void Cadastrar(T t) { }
         public void Alterar(T t) { }
         public void Deletar(T t) { }
-        public List<T> BuscarTodos();
-        public List<T> BuscarNome(string s);
+      //  public List<T> BuscarTodos(AlunoDTO a);
+       // public List<T> BuscarNome(string s);
     }
 }
