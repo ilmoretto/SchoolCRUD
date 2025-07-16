@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace BackCRUD.Visualizacao
 {
-    public class AlunoDTO
+    public class AlunoDTO // junção dos dados de aluno e responsável para o left join
     {
-
         public int IdAluno { get; set; }
         public string NomeAlu { get; set; }
         public string CpfAluno { get; set; }

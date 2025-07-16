@@ -49,13 +49,17 @@
             // btnBuscar
             // 
             btnBuscar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnBuscar.Location = new Point(265, 39);
+            btnBuscar.Image = (Image)resources.GetObject("btnBuscar.Image");
+            btnBuscar.ImageAlign = ContentAlignment.MiddleRight;
+            btnBuscar.Location = new Point(265, 36);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(100, 26);
+            btnBuscar.Size = new Size(100, 29);
             btnBuscar.TabIndex = 7;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
             btnBuscar.Click += btnBuscar_Click_1;
+            btnBuscar.MouseEnter += btnBuscar_MouseEnter;
+            btnBuscar.MouseLeave += btnBuscar_MouseLeave;
             // 
             // btnAlterar
             // 
@@ -68,8 +72,11 @@
             btnAlterar.Size = new Size(118, 34);
             btnAlterar.TabIndex = 8;
             btnAlterar.Text = "Alterar";
+            btnAlterar.TextImageRelation = TextImageRelation.TextBeforeImage;
             btnAlterar.UseVisualStyleBackColor = false;
             btnAlterar.Click += btnAlterar_Click_1;
+            btnAlterar.MouseEnter += btnAlterar_MouseEnter;
+            btnAlterar.MouseLeave += btnAlterar_MouseLeave;
             // 
             // btnCadastrar
             // 
@@ -82,6 +89,7 @@
             btnCadastrar.Size = new Size(118, 34);
             btnCadastrar.TabIndex = 9;
             btnCadastrar.Text = "Novo";
+            btnCadastrar.TextImageRelation = TextImageRelation.TextBeforeImage;
             btnCadastrar.UseVisualStyleBackColor = false;
             btnCadastrar.Click += btnCadastrar_Click_1;
             btnCadastrar.MouseEnter += btnCadastrar_MouseEnter;
@@ -116,8 +124,11 @@
             btnDeletar.Size = new Size(118, 34);
             btnDeletar.TabIndex = 6;
             btnDeletar.Text = "Deletar";
+            btnDeletar.TextImageRelation = TextImageRelation.TextBeforeImage;
             btnDeletar.UseVisualStyleBackColor = false;
             btnDeletar.Click += btnDeletar_Click_1;
+            btnDeletar.MouseEnter += btnDeletar_MouseEnter;
+            btnDeletar.MouseLeave += btnDeletar_MouseLeave;
             // 
             // frmMain
             // 

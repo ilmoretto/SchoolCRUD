@@ -104,9 +104,6 @@ namespace BackCRUD.DAO
                 ConexaoBD.Desconectar();
             }
         }// fim de buscar todos
-
-
-
         public Aluno BuscarPorId(int id) {
             Aluno aluno = null;
             try {

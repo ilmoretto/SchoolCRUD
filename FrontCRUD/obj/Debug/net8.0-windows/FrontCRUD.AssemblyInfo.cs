@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrontCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a97afc34993db30de2e7adb68cc9b9105c26a1c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8625fea5d81c2a8b366a7b9ae574c2e7f15ea11b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrontCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrontCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

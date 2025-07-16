@@ -56,8 +56,11 @@
             btnSalvar.Size = new Size(114, 34);
             btnSalvar.TabIndex = 11;
             btnSalvar.Text = "Salvar";
+            btnSalvar.TextImageRelation = TextImageRelation.TextBeforeImage;
             btnSalvar.UseVisualStyleBackColor = true;
             btnSalvar.Click += btnSalvar_Click;
+            btnSalvar.MouseEnter += btnSalvar_MouseEnter;
+            btnSalvar.MouseLeave += btnSalvar_MouseLeave;
             // 
             // btnCancelar
             // 

@@ -39,29 +39,29 @@ namespace FrontCRUD
             this.Text = "Editar Aluno";
             EditCampos();
         }
-        private void CarregarCB() {
+        private void CarregarCB() { //carregar dados no combobox
             try {
                 List<ResponsavelAluno> responsaveis = _responsavelDAO.BuscarTodos();
 
-                
+
                 responsaveis.Insert(0, new ResponsavelAluno { IdResp = 0, NomeResp = "Selecione um Responsável" }); // IdResp 0 para indicar "nenhum"
 
                 cmbResponsavel.DataSource = responsaveis; // Define a lista como fonte de dados
-                cmbResponsavel.DisplayMember = "NomeResp"; 
-                cmbResponsavel.ValueMember = "IdResp";     
+                cmbResponsavel.DisplayMember = "NomeResp";
+                cmbResponsavel.ValueMember = "IdResp";
 
-                cmbResponsavel.SelectedIndex = 0; 
+                cmbResponsavel.SelectedIndex = 0;
             } catch (Exception ex) {
-                MessageBox.Show($"Erro ao carregar responsáveis: {ex.Message}", "Erro", 
+                MessageBox.Show($"Erro ao carregar responsáveis: {ex.Message}", "Erro",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
-                cmbResponsavel.DataSource = null; 
+                cmbResponsavel.DataSource = null;
             }
         }
 
         private void EditCampos() {
             if (_alunoAtual != null) {
                 txtId.Text = _alunoAtual.IdAluno.ToString();
-                
+
                 txtNomeAluno.Select(); // seleciona o campo ao iniciar o form
                 txtNomeAluno.Text = _alunoAtual.NomeAlu;
                 txtCpfAluno.Text = _alunoAtual.CpfAluno;
@@ -80,11 +80,12 @@ namespace FrontCRUD
 
         private void btnSalvar_Click(object sender, EventArgs e) {
             try {
-                if (string.IsNullOrWhiteSpace(txtNomeAluno.Text) || string.IsNullOrWhiteSpace(txtCpfAluno.Text)) {
-                    MessageBox.Show("Nome e CPF são campos obrigatórios.", "Validação", 
+                if (string.IsNullOrWhiteSpace(txtNomeAluno.Text) || dtpDataNascAluno.Value.Date == DateTime.Today.Date) {
+                    MessageBox.Show("Nome e data de nascimento são obrigatórios.", "UÊPA!",
                         MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
+                
 
                 DateOnly dataNascAluno = DateOnly.FromDateTime(dtpDataNascAluno.Value);
 
@@ -107,7 +108,7 @@ namespace FrontCRUD
                     _alunoAtual.Fk_id_responsavel = idResponsavel;
 
                     _alunoDAO.Alterar(_alunoAtual);
-                    MessageBox.Show("Aluno atualizado com sucesso!", "Sucesso", MessageBoxButtons.OK, 
+                    MessageBox.Show("Aluno atualizado com sucesso!", "Sucesso", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 } else {
                     Aluno novoAluno = new Aluno {
@@ -120,14 +121,14 @@ namespace FrontCRUD
                         Fk_id_responsavel = idResponsavel
                     };
                     _alunoDAO.Cadastrar(novoAluno);
-                    MessageBox.Show("Aluno cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, 
+                    MessageBox.Show("Aluno cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }
 
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             } catch (Exception ex) {
-                MessageBox.Show($"Ocorreu um erro ao salvar/atualizar o aluno: {ex.Message}", "Erro", 
+                MessageBox.Show($"Ocorreu um erro ao salvar/atualizar o aluno: {ex.Message}", "Erro",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -138,6 +139,14 @@ namespace FrontCRUD
 
         private void frmCadastro_Load(object sender, EventArgs e) {
 
+        }
+
+        private void btnSalvar_MouseEnter(object sender, EventArgs e) {
+            btnSalvar.BackColor = Color.GreenYellow;
+        }
+
+        private void btnSalvar_MouseLeave(object sender, EventArgs e) {
+            btnSalvar.BackColor = SystemColors.Window;
         }
     }
 }

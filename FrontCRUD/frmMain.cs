@@ -37,7 +37,7 @@ public partial class frmMain : Form
         dgvAlunos.DataSource = alunos;
         NomearColunas();
         try {
-            
+
 
         } catch (Exception ex) {
             MessageBox.Show($"Erro ao carregar alunos: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -53,7 +53,7 @@ public partial class frmMain : Form
         dgvAlunos.Columns["RgAlu"].HeaderText = "RG";
         dgvAlunos.Columns["EmailAlu"].HeaderText = "Email";
         dgvAlunos.Columns["NomeResponsavel"].HeaderText = "Responsável";
-        
+
 
     }
 
@@ -158,10 +158,38 @@ public partial class frmMain : Form
     }
 
     private void btnCadastrar_MouseEnter(object sender, EventArgs e) {
-        btnCadastrar.BackColor = System.Drawing.Color.LightSkyBlue;
+        btnCadastrar.BackColor = Color.LightSkyBlue;
     }
 
     private void btnCadastrar_MouseLeave(object sender, EventArgs e) {
-        btnCadastrar.BackColor = System.Drawing.Color.WhiteSmoke;
+        btnCadastrar.BackColor = Color.WhiteSmoke;
+    }
+
+    private void btnAlterar_MouseEnter(object sender, EventArgs e) {
+        btnAlterar.BackColor = Color.LightSkyBlue;
+    }
+
+    private void btnAlterar_MouseLeave(object sender, EventArgs e) {
+        btnAlterar.BackColor = Color.WhiteSmoke;
+    }
+
+    private void btnDeletar_MouseEnter(object sender, EventArgs e) {
+        btnDeletar.BackColor = Color.IndianRed;
+        btnDeletar.ForeColor = Color.WhiteSmoke;
+    }
+
+    private void btnDeletar_MouseLeave(object sender, EventArgs e) {
+        btnDeletar.BackColor = Color.WhiteSmoke;
+        btnDeletar.ForeColor = Color.Black;
+    }
+
+    private void btnBuscar_MouseEnter(object sender, EventArgs e) {
+        btnBuscar.BackColor = Color.CornflowerBlue;
+        btnBuscar.ForeColor = Color.White;
+    }
+
+    private void btnBuscar_MouseLeave(object sender, EventArgs e) {
+        btnBuscar.BackColor = SystemColors.Window;
+        btnBuscar.ForeColor = Color.Black;
     }
 }
